@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerador de cor gradiente - Color Gradient</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <h1>Gerador de cores gradiente</h1>
+    <div id="container">
+        <main>
+            <div id="settings">
+
+                <div id="color">
+                    <input type="color" name="" id="color1">
+                    <input type="color" name="" id="color2">
+                    <div id="button">
+                        <button id="btnColor" class="btn">Cores</button>
+                    </div>
+                </div>
+                <div class="repeating">
+                    <p>Repetitivo</p> 
+                    <input type="range" name="" id="repeating" value="0" min="0" max="1">
+                </div>
+                <div id="rotation">
+                    <p id="textRotation">180</p>
+                    <input type="range" name="" id="rangeR" value="180" min="0" max="360">
+                    <div id="cssCores">
+                        <button class="btn btn-gerar" id="gerar">Gerar CSS</button>
+                        <p id="coresCss" style="margin-top: 10px;"></p>
+                    </div>
+                </div>
+            </div>
+            <div id="gradientColor"></div>
+        </main>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

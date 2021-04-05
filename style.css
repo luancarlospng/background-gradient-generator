@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#container {
+    position: relative;
+    width: 1000px;
+    margin: 100px auto;
+
+}
+
+#settings {
+    position: absolute;
+    width: 50%;
+    right: 0;
+}
+
+#color {
+    text-align: center;
+    margin-bottom: 20px;
+    height: 100px;
+}
+
+#color input {
+    display: none;
+    margin: 10px;
+}
+
+.btn {
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    transition: ease .3s;
+}
+
+.btn:hover {
+    border-bottom: 3px solid rgb(249, 164, 235);
+    border-right: 3px solid rgb(249, 164, 235);
+    border-left: 3px solid rgb(56, 93, 178);
+    border-top: 3px solid rgb(56, 93, 178);
+}
+
+.btn-gerar {
+    padding: 10px;
+    display: block;
+}
+
+#gradientColor {
+    width: 50%;
+    height: 300px;
+}
+
+#rotation {
+    text-align: center;
+}
+
+#rotation input {
+    width: 80%;
+}
+
+input {
+    cursor: pointer;
+}
+
+.repeating {
+    text-align: center;
+}
+
+.repeating input {
+    width: 80px;
+}
